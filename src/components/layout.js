@@ -12,6 +12,7 @@ import PropTypes from "prop-types"
 import Header from './header'
 
 import "./layout.css"
+import Footer from "./Footer"
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`   //Checker esto cuando llegue el momento
@@ -28,6 +29,10 @@ const Layout = ({ children }) => {
     <>
       <Header />
       <main>{children}</main>
+      <Footer id='contact'>
+      If you have any question or want to know more about our services, send us an email to hgmarti@gmail.com <br />© 2018 - 
+      Terms of Service - Privacy Policy
+      </Footer>
     </>
   )
 }

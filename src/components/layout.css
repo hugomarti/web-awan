@@ -13,7 +13,7 @@ a {
 }
 
 .Hero {
-  background: url('../images/wallpaper3.jpg');
+  background: url('../images/vinyl-texture.jpg');
   height: 920px;
   background-size: cover;
   background-position: center;
@@ -22,15 +22,15 @@ a {
 
 .HeroGroup {
   margin: 0 auto;
-  max-width: 500px;
-  padding: 150px 50px;
+  max-width: auto;
+  padding: 90px 50px;
   text-align: center;
 }
 
 .Hero h1 {
   margin: 0;
   color: white;
-  font-size: 60px;
+  font-size: 30px;
   line-height: 1.2;
   opacity: 0;
   animation: HeroAnimation;
@@ -67,11 +67,16 @@ a {
 
 @media (max-width: 640px) {
   .HeroGroup {
-    padding: 100px 20px;
+    max-width: auto;
+    padding: 230px 20px;
   }
 
   .Hero h1 {
     font-size: 40px;
+  }
+
+  .Hero img {
+    width: 350px;
   }
 
   .Hero p {
@@ -96,11 +101,11 @@ a {
   left: 0;
 }
 
+
 .Hero .Logos {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 40px;
-  margin: 100px 0;
   justify-items: center;
 }
 
@@ -115,7 +120,7 @@ a {
   font-size: 60px;
   text-align: center;
   font-weight: 700;
-  background: linear-gradient(104deg, #050A27 0%, #4A548C 100%);
+  background: black;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -123,7 +128,7 @@ a {
 .CardGroup {
   margin: 50px 40px 100px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 40px;
   justify-items: center;
 }

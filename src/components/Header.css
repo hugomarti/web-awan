@@ -24,6 +24,7 @@
 .Header a {
     color: white;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .Header button {
@@ -44,13 +45,13 @@
     transform: translateY(-3px);
 }
 
-@media (max-width: 640px) {
+@media (max-width: 300px) {
     .Header {
         padding: 15px 0;
     }
 
     .HeaderGroup {
-        grid-template-columns: repeat(4, auto);
+        grid-template-columns: repeat(5, 1fr);
     }
 
     .Header a:nth-child(4) {
