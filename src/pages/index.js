@@ -25,33 +25,21 @@ const IndexPage = () => (
       <h2>Our setup</h2>
       <div className='CardGroup'>
         <Card
-          // title='Design System'
-          // text='10 sections'
           image={require('../images/filterStudio1.jpg')}
         />
         <Card
-          // title='React for Deigners'
-          // text='12 sections'
           image={require('../images/filterStudio2.jpg')}
         />
         <Card
-          // title='Sound Design'
-          // text='5 sections'
           image={require('../images/filterStudio3.jpg')}
         />
         <Card
-          // title='ARKit 2'
-          // text='10 sections'
           image={require('../images/filterStudio4.jpg')}
         />
         <Card
-          // title='ARKit 2'
-          // text='10 sections'
           image={require('../images/filterStudio5.jpg')}
         />
         <Card
-          // title='ARKit 2'
-          // text='10 sections'
           image={require('../images/filterStudio6.jpg')}
         />
       </div>
@@ -60,11 +48,9 @@ const IndexPage = () => (
       image={require('../images/vinyl-texture.jpg')}
       logo={require('../images/cloudWhite.png')}
       title='Mix, Master and Record'
-      text='Awan Studio is a recording studio located in the 
-      beautiful island of Bali. Hosted in a villa surounded by nature, 
-      equiped with great equipment and proper acustics to record and process your projects.
-      We have been working with artists and labels around the world delivering high quaility services 
-      reaching the standards from nowadays.
+      text='Awan Studio is a recording studio located on the beautiful island of Bali.
+       We are primarily a music production facility. We record, mix, and master singles, demos, and full-length albums for producers and musicians.
+      We specialize in walking our clients through the entire process of creating an album. Let us use our years of experience to help you get the best product possible.
       '
     />
   </Layout>

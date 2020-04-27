@@ -1,8 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Awan Studio`,
+    description: `Awan Studio is a recording studio located on the beautiful island of Bali. We are primarily a music production facility. 
+    We record, mix, and master singles, demos, and full-length albums for producers and musicians. We specialize in walking our clients through the entire process of creating an album. 
+    Let us use our years of experience to help you get the best product possible.`,
+    keywords: 'recording studio, recording studio bali, mixing, mastering, mixing bali, bali music, bali music studio, studio music, mastering bali, recording, audio, sound engineer, recording bali',
+    author: `@awanStudio`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
