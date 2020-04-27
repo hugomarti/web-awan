@@ -14,7 +14,7 @@ const IndexPage = () => (
   <Layout>
     <div className='Hero' id='main'>
       <div className='HeroGroup'>
-      <img alt='' src={require('../images/logoWhite.png')} width='500' />
+      <img alt='' src={require('../images/logoWhite.png')} width='370' />
           <h1>Mix | Master | Record <br/> your music</h1>
           
 

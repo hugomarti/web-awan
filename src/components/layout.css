@@ -14,7 +14,7 @@ a {
 
 .Hero {
   background: url('../images/vinyl-texture.jpg');
-  height: 920px;
+  height: 820px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -23,7 +23,7 @@ a {
 .HeroGroup {
   margin: 0 auto;
   max-width: auto;
-  padding: 90px 50px;
+  padding: 120px 50px;
   text-align: center;
 }
 
@@ -68,15 +68,15 @@ a {
 @media (max-width: 640px) {
   .HeroGroup {
     max-width: auto;
-    padding: 230px 20px;
+    padding: 160px 20px;
   }
 
   .Hero h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .Hero img {
-    width: 350px;
+    width: 300px;
   }
 
   .Hero p {

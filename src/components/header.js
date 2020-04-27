@@ -56,3 +56,4 @@ const Header = props => (
 
 export default Header
 // <Link to='/buy'><button>Buy</button></Link>
+
